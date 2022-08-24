@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-size: 25px;
+
+
+}
+.gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #F7ECDE, #E9DAC1, #9ED2C6, #54BAB9);
+    background-size: 300% 400%;
+    animation: colors 10s ease infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+        
+    }
+
+    100%{
+        background-position: 0% 50%;
+        
+    }
+}
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #b6135f;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 25px #df71d9;
+}
+
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 25px #25d3657e;
+}
+
+.box:nth-child(3):hover{
+    background: #095491;
+    box-shadow: 0 0 25px #669dd17e;
+}
+
+.box:nth-child(4):hover{
+    background: #2585d3;
+    box-shadow: 0 0 25px #4d98df7e;
+}
+.navbar p{
+    transform: translate(60px);  
+}
+.box .icon{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.instagram{
+    background-color: #b6135f;
+}
+
+.whatsapp{
+    background-color: #25d366;
+}
+
+
+.facebook{
+    background-color: #095491;
+}
+
+
+.twitter{
+    background-color: #2585d3;
+}
+
+
+
+
