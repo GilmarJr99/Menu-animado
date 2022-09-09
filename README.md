@@ -12,4 +12,4 @@ de melhorar minhas habilidade com CSS. </h3>
   <td>HTML</td>
     <td>CSS</td>
   </tr>
-</table> 
+</table>
