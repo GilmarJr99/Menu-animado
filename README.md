@@ -1,4 +1,4 @@
-<h1>Social Media menu<h2> 
+<h1>Social Media menu<h2>
 
 > Status: Concluído. ✔️
 
